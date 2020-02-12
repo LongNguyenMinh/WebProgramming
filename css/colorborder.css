@@ -2,24 +2,19 @@
 
 /* Testing new repo name */
 
-#multibackground {
+html {
   background-image: url('../img/orb-cres-bw.png'), url('../img/orb-step-bw.png'), url('../img/StoreyHall-cubeBW.jpg');
   background-repeat: no-repeat, no-repeat, no-repeat;
+  background-attachment: fixed, fixed, fixed;
   background-position: left, right, center;
   background-size: 17vw, 17vw, cover;
-  color: white;
 }
 
 main > article > section{
   border: solid #000054;
   border-width: thin;
   color: #000054;
-  background-image: url(../img/halflogo.svg), url(../img/image1.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: right top, left bottom;
-  background-size: 15%, 15%;
 }
-
 
 main > article > section.key header,
 main > article > section.title header {
@@ -31,7 +26,7 @@ footer {
   background-color:#E60028;
 }
 header {
-  
+  background-color: white;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
 }
 main > article > section header {
@@ -191,11 +186,6 @@ code span span span {
 
 article[id^="slides-lecture"] section header {
   color: #000054;
-  font-weight: bold;
-}
-
-article[id^="slides-lecture"] section#multibackground header {
-  color: white;
   font-weight: bold;
 }
 

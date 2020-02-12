@@ -1,7 +1,7 @@
 /* Fonts sourced from dafont.com */
 @font-face {
     font-family: Museo-500;
-    src: url(../fonts/Museo500-Regular.otf) format("opentype");
+    src: url(/fonts/Museo500-Regular.otf) format("opentype");
 }
 
 @font-face {
@@ -246,11 +246,7 @@ article > section > div > span {
 main > article > section > section.content {
   clear: both;
   min-height: 36vw;
-  padding-left: 2vw;
-  padding-right: 2vw;
-  padding-top: 2vw;
-  padding-bottom: 8vw;
-  
+  padding: 2vw;
 }
 
 main > article > section blockquote {
