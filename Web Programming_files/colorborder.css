@@ -123,7 +123,7 @@ main > article > section tr:nth-child(odd) td {
 }
 
 main article section section {
-  font-size: 2vw;
+  /*font-size: 2vw;
   /*padding-bottom: 20px;*/
 }
 
@@ -228,11 +228,11 @@ article section.title{
 
 
 article section.key section ol{
-  font-size: 2vw;
+ /* font-size: 2vw;*/
 }
 
 article section.key section ul{
-  font-size: 2vw;
+ /* font-size: 2vw;*/
 }
 
 article section.title section p {

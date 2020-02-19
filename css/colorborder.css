@@ -118,7 +118,7 @@ main > article > section tr:nth-child(odd) td {
 }
 
 main article section section {
-  font-size: 2vw;
+  /*font-size: 1.5vw;
   /*padding-bottom: 20px;*/
 }
 
