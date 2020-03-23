@@ -157,7 +157,7 @@ nav > details > div {
 }
 
 nav details label.ui-button {
-  min-width:150px;
+  min-width:90px;
   text-align: left;
 }
 
